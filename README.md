@@ -153,4 +153,11 @@ This repository provides a Python-based implementation of a conversational assis
 - **Issue: PDF Not Accessible**
   - Verify the PDF URL or replace it with a valid one.
 
+## Acknowledgments
+
+- [Pinecone](https://www.pinecone.io/) for vector search.
+- [Sentence Transformers](https://www.sbert.net/) for embeddings.
+- [Phidata](https://www.phidata.com/) for Agent Framework.
+- [Groq](https://groq.com/) for LLM Agent.
+- Thai Recipes PDF for knowledge base data.
 ---
