@@ -1,0 +1,12 @@
+phidata 
+python-dotenv
+packaging
+groq
+typer
+sqlalchemy
+chromadb
+pypdf
+pinecone
+pinecone_text
+huggingface-hub
+sentence-transformer
