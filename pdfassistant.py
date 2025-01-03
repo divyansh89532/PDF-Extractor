@@ -13,7 +13,10 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-api_key = os.getenv('PINECONE_API_KEY')
+os.environ['PINECONE_API_KEY'] = os.getenv('PINECONE_API_KEY')
+os.environ['GROQ_API_KEY'] = os.getenv('GROQ_API_KEY')
+os.environ['PHI_DATA_KEY'] = os.getenv('PHI_DATA_KEY')
+
 index_name = "thai-recipe-hybrid-search"
 embedder = SentenceTransformerEmbedder(dimensions=384)
 
