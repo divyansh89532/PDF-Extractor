@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-api_key = '<PINECONE API KEY>'
+api_key = os.getenv('PINECONE_API_KEY')
 index_name = "thai-recipe-hybrid-search"
 embedder = SentenceTransformerEmbedder(dimensions=384)
 
