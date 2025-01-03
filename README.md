@@ -21,7 +21,9 @@ This repository provides a Python-based implementation of a conversational assis
     - `pinecone`
     - `sentence-transformers`
 3. A valid Pinecone API Key.
-4. PDF URL access permissions.
+4. A valid GROQ LLM API Key.
+5. A valid phi-data API Key.
+6. PDF URL access permissions.
 
 ---
 
@@ -30,8 +32,8 @@ This repository provides a Python-based implementation of a conversational assis
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/pinecone-thai-recipe-assistant.git
-   cd pinecone-thai-recipe-assistant
+   git clone https://github.com/your-username/PDF-Extractor.git
+   cd PDF-Extractor
    ```
 
 2. **Install Dependencies**
@@ -44,10 +46,12 @@ This repository provides a Python-based implementation of a conversational assis
 
 3. **Environment Variables**
 
-   Create a `.env` file in the root directory and add the Pinecone API Key:
+   Create a `.env` file in the root directory and add the Pinecone API Key,GROQ API key and PHI-Data API KEY:
 
    ```env
    PINECONE_API_KEY=<Your-Pinecone-API-Key>
+   GROQ_API_KEY=<Your-GROQ-API-Key>
+   PHI_DATA_KEY=<Your-PHI-DATA-Key>
    ```
 
 4. **PDF Data Source**
